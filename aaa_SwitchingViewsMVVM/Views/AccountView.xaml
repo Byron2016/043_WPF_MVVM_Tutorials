@@ -9,7 +9,7 @@
     <Grid>
         <Label FontSize="30"
                HorizontalAlignment="Center"
-               Content="Account
-            
+               Content="Account"/>
+
     </Grid>
 </UserControl>
