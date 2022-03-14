@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace aaa_SwitchingViewsMVVM.ViewModels
 {
@@ -21,6 +22,8 @@ namespace aaa_SwitchingViewsMVVM.ViewModels
                 _selectedViewModel = value; 
             }
         }
+
+        public ICommand UpdateViewCommand { get; set; }
 
     }
 }
