@@ -1,5 +1,4 @@
-﻿using aaa_SwitchingViewsMVVM.ViewModels;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,18 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace aaa_SwitchingViewsMVVM
+namespace aaa_SwitchingViewsMVVM.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for HomeView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class HomeView : UserControl
     {
-        public MainWindow()
+        public HomeView()
         {
             InitializeComponent();
-
-            DataContext = new MainViewModel();
         }
     }
 }
