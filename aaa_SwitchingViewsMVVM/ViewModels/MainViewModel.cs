@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace aaa_SwitchingViewsMVVM.ViewModels
 {
-    internal class MainViewModel : BaseViewModel
+    public class MainViewModel : BaseViewModel
     {
+        private BaseViewModel _selectedViewModel;
+
+        public BaseViewModel SelectedViewMode
+        {
+            get 
+            { 
+                return _selectedViewModel; 
+            }
+            set 
+            {
+                _selectedViewModel = value; 
+            }
+        }
+
     }
 }
