@@ -27,7 +27,7 @@ namespace aab_EventCommandsMVVM.ViewModels
 		{
 			LoadTodoItemsCommand = new LoadTodoItemsCommand(this);
 
-			LoadTodoItemsCommand.Execute(null);
+			//LoadTodoItemsCommand.Execute(null);
 		}
 	}
 }
